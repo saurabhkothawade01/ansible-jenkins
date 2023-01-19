@@ -7,8 +7,8 @@
       
   - name: "copy page"
     copy:
-      src: "index.html"
-      dest: "/var/www/html/"
+      content: "hii this is from ansible-jenkins"
+      dest: "/var/www/html/index.html"
 
   - name: "start web service"
     service:
